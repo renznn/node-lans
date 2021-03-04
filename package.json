@@ -7,7 +7,7 @@
     "test-mocha": "mocha --reporter spec",
     "test-jest": "jest",
     "tsc-build": "tsc",
-    "webpack-build": "webpack"
+    "webpack-build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

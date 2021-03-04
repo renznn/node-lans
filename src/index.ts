@@ -1,5 +1,11 @@
-export function add(a: number, b: number): number {
-  console.log('1541', '156');
-  return a + b;
+import { ss } from './string/string';
+
+export function aa() {
+  console.log(1);
 }
-const data = ['123', '4'];
+
+const utils = {
+  ss,
+  a: 1
+};
+export default utils;

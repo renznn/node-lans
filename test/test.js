@@ -16,8 +16,9 @@
 
 // jest 测试
 // npm run test-jest
-import { add } from '../dist/index';
+import { ss } from '../dist/index';
 
 test('this is jest test', () => {
-  expect(add(1, 2)).toEqual(3);
+  // expect(add(1, 2)).toEqual(3);
+  ss();
 });
